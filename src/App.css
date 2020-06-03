@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  background-color: rgb(49, 49, 75);
+  height: 800px;
+}
+.login-page {
+  width: 100%;
+  padding-top: 180px;
+}
+.login-form {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.login-form-input1 {
+  width: 40%;
+  height: 35px;
+}
+.login-form-input2 {
+  width: 40%;
+  height: 35px;
+  margin-top: 70px;
+}
+.login-form-button {
+  width: 40%;
+  height: 35px;
+  margin-top: 70px;
+}
+.home-page-header {
+  padding: 60px 0px 0px 60px;
+  display: flex;
+}
+.home-page-header div {
+  width: 30%;
+  background-color: yellow;
+  margin-right: 20px;
+  height: 200px;
+}
+.list-item {
+  width: 31%;
+  padding: 40px 0px 0px 20px;
+}
+.list-item li {
+  background-color: green;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.bottom-part {
+  display: flex;
+}
+.desc {
+  width: 57%;
+  height: 340px;
+  background-color: darksalmon;
+  margin: 50px 0px 0px 40px;
+}
+.logout {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  background-color: lightseagreen;
+  border: 0px;
+  height: 30px;
+  width: 80px;
+  font-size: medium;
+  font-weight: bold;
+}
+.error-message {
+  color: red;
+  font-size: 30px;
+}
+.clear-selection {
+  position: absolute;
+  right: 120px;
+  top: 10px;
+  background-color: lightseagreen;
+  border: 0px;
+  height: 30px;
+  width: 120px;
+  font-size: small;
+  font-weight: bold;
+}
